@@ -22,7 +22,7 @@ public void user_is_already_on_Login_Page() {
 	driver = new ChromeDriver();
 	driver.get("https://www.freecrm.com/index.html"); 
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-}
+}// including the changes
 
 @When("^title of login page is FreeCRM$")
 public void title_of_login_page_is_FreeCRM(){
